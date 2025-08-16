@@ -47,15 +47,15 @@ o Retrieve the product data from the API based on the passed id parameter
 
 o Display the following details for the selected product:
 
-§ title
+  -  title
 
-§ description
+  -  description
 
-§ price
+  -  price
 
-§ brand
+  -  brand
 
-§ category
+  -  category
 
 o Display the product's image image.
 
