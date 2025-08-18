@@ -74,3 +74,32 @@ o Apply basic styling to make the product details well-organized and readable.
 · Implement basic error handling (Display a "Failed to load products" message if the API call fails).
 
 · Implement a loading state ("Loading products...") while data is being fetched.
+
+TestIDs:
+
+Add testIDs for testing:
+
+  - ProductListScreen
+
+    -   loading-indicator
+    -   error-message
+    -   product-item
+    -   product-list
+
+Requirements 
+
+· Two screens: ProductListScreen and ProductDetailScreen.
+
+· ProductListScreen fetches product data from https://dummyjson.com/products on mount.
+
+· ProductListScreen displays a list of products (title, price) using FlatList.
+
+· Loading indicator displayed while fetching data.
+
+· Error handling for API requests.
+
+· Tapping a product in ProductListScreen navigates to ProductDetailScreen.
+
+· ProductDetailScreen displays comprehensive details (title, description, price, brand, category, thumbnail) of the selected product.
+
+· Data is passed correctly between screens using navigation parameters
