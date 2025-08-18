@@ -85,6 +85,12 @@ Add testIDs for testing:
     -   error-message
     -   product-item
     -   product-list
+   
+  - ProductDetailScreen
+    
+    -   loading-indicator
+    -   error-message
+    -   back-button
 
 Requirements 
 
